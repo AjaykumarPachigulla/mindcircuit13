@@ -4,25 +4,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>mindcircuitbatch13</artifactId>
+    <artifactId>ajay</artifactId>
     <version>2.246</version>
     <packaging>war</packaging>
 
 	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://3.83.18.215:9000/</sonar.host.url>
+		<docker.image.prefix>ajay</docker.image.prefix>
+		<sonar.host.url>http://44.213.110.190:9000/</sonar.host.url>
 
 	</properties>
 
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://100.25.155.112:8081/repository/mc-snapshot/</url>
+		    <url>http://http://44.213.110.190:8081/repository/mc-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-3-87-3-6.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
+		    <url>http://ec2-44-213-110-190.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
 		</repository>
   	</distributionManagement>
 
