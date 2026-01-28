@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: pachigullaajaykumar/sonarqube:latest
+        image: pachigullaajaykumar/sonarqube:11
         ports:
         - containerPort: 8080
 
