@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>mindcircuit</artifactId>
+    <artifactId>argo-cd</artifactId>
     <version>2.246</version>
     <packaging>war</packaging>
 
@@ -30,11 +30,7 @@
     <build>
         <plugins>
             <plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-    			<artifactId>sonar-maven-plugin</artifactId>
-   			    <version>3.10.0.2594</version>
-				
-                <groupId>org.apache.maven.plugins</groupId>
+            	<groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
