@@ -10,19 +10,19 @@
 
 	<properties>
 		<docker.image.prefix>ajay</docker.image.prefix>
-		<sonar.host.url>http://3.239.106.159:9000/</sonar.host.url>
+		<sonar.host.url>http://44.211.189.113:9000/</sonar.host.url>
 
 	</properties>
 
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://3.239.106.159:8081/repository/mc-snapshot/</url>
+		    <url>http://44.211.189.113:8081/repository/mc-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-3-239-106-159.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
+		    <url>http://ec2-44-211-189-113.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
 		</repository>
   	</distributionManagement>
 
